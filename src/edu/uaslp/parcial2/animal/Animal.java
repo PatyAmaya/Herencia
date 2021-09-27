@@ -23,12 +23,12 @@ public class Animal {
         this.color = color;
     }
 
-    public int getTamaño() {
+    public int getSize() {
         return size;
     }
 
-    public void setTamaño(int tamaño) {
-        this.size = tamaño;
+    public void setSize(int size) {
+        this.size = size;
     }
 
     public int getNumeroDePatas() {
