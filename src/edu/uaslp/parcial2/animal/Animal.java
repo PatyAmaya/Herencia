@@ -1,6 +1,5 @@
-package animal;
+package edu.uaslp.parcial2.animal;
 
-import animal.*;
 
 public class Animal {
     protected String color;

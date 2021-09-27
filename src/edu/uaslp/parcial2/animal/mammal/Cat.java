@@ -1,6 +1,6 @@
-package animal.mammal;
+package edu.uaslp.parcial2.animal.mammal;
 
-import animal.*;
+import edu.uaslp.parcial2.animal.Animal;
 
 public class Cat extends Animal{
 }

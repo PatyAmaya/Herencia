@@ -1,5 +1,6 @@
-package animal.oviparous;
-import animal.*;
+package edu.uaslp.parcial2.animal.oviparous;
+
+import edu.uaslp.parcial2.animal.Animal;
 
 public class Bird extends Animal
 {

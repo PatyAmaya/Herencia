@@ -1,9 +1,9 @@
+package edu.uaslp.parcial2;
 
-import animal.*;
-import animal.Oviparous.*;
-import animal.mammal.Dog;
-import animal.oviparous.Bird;
-import animal.oviparous.Duck;
+import edu.uaslp.parcial2.animal.*;
+import edu.uaslp.parcial2.animal.mammal.*;
+import edu.uaslp.parcial2.animal.oviparous.*;
+
 
 
 public class Main {
