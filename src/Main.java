@@ -1,29 +1,35 @@
-import java.awt.*;
+
+import animal.*;
+import animal.Oviparous.*;
+import animal.mammal.Dog;
+import animal.oviparous.Bird;
+import animal.oviparous.Duck;
 
 
 public class Main {
     public static void main(String[] args){
 
         Animal animal = new Animal();
-        Ave ave = new Ave();
-        Perro perro = new Perro();
+        Bird bird = new Bird();
+        Dog dog = new Dog();
+
 
         animal.setColor("Rojo");
         animal.setTamaño(20);
         animal.setNumeroDePatas(4);
-        animal.comer();
+        animal.eat();
 
-        ave.setColor("VERDE");
-        ave.setTamaño(25);
-        ave.setNumeroDePatas(2);
-        ave.caminar();
-        ave.comer();
+        bird.setColor("VERDE");
+        bird.setTamaño(25);
+        bird.setNumeroDePatas(2);
+        bird.walk();
+        bird.eat();
 
-        perro.setColor("CAFE");
-        perro.setTamaño(10);
-        perro.setNumeroDePatas(4);
-        perro.caminar();
-        perro.comer();
+        dog.setColor("CAFE");
+        dog.setTamaño(10);
+        dog.setNumeroDePatas(4);
+        dog.walk();
+        dog.eat();
 
     }
 }

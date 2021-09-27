@@ -1,12 +1,15 @@
-class Animal
-{
-    private String color;
-    private int tamaño;
-    private int numeroDePatas;
+package animal;
 
-    public void comer(){
+import animal.*;
 
-        System.out.println("El animal de color "+color+", tamaño "+tamaño+", y numero de patas "+numeroDePatas+" está comiendo");
+public class Animal {
+    protected String color;
+    protected int size;
+    protected int legsNum;
+
+    public void eat(){
+
+        System.out.println("El animal de color "+color+", tamaño "+size+", y numero de patas "+legsNum+" está comiendo");
         System.out.println("Busca comida");
         System.out.println("Atrapa comida");
         System.out.println("Engulle");
@@ -21,18 +24,18 @@ class Animal
     }
 
     public int getTamaño() {
-        return tamaño;
+        return size;
     }
 
     public void setTamaño(int tamaño) {
-        this.tamaño = tamaño;
+        this.size = tamaño;
     }
 
     public int getNumeroDePatas() {
-        return numeroDePatas;
+        return legsNum;
     }
 
     public void setNumeroDePatas(int numeroDePatas) {
-        this.numeroDePatas = numeroDePatas;
+        this.legsNum = numeroDePatas;
     }
 }

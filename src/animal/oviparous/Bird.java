@@ -1,4 +1,7 @@
-class Ave extends Animal
+package animal.oviparous;
+import animal.*;
+
+public class Bird extends Animal
 {
     public void volar(){
         System.out.println("Mueve alas");
@@ -7,7 +10,7 @@ class Ave extends Animal
     }
 
 
-    public void caminar(){
+    public void walk(){
         System.out.println("Da saltitos");
     }
 }
